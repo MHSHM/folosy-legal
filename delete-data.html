@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your Folosy data</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    color: #1c1c1c;
+    background: #ffffff;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 88px; }
+  h1 { font-size: 1.85rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.22rem; margin: 2.2em 0 0.6em; }
+  p, li { font-size: 1rem; }
+  .meta { color: #5f6b66; margin: 0 0 4px; }
+  a { color: #0c6b5e; }
+  strong { font-weight: 600; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #d5dcda; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f2f6f5; }
+  code { font-family: ui-monospace, Consolas, monospace; font-size: 0.92em; background: #f2f6f5; padding: 1px 5px; border-radius: 4px; }
+  hr { border: none; border-top: 1px solid #d5dcda; margin: 2.5em 0 0; }
+  .overflow { overflow-x: auto; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e9e8; background: #121615; }
+    .meta { color: #93a09b; }
+    a { color: #58c2b1; }
+    th, td { border-color: #33403c; }
+    th { background: #1b2321; }
+    code { background: #1b2321; }
+    hr { border-top-color: #33403c; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Delete your Folosy data</h1>
+  <p class="meta"><strong>Last updated:</strong> July 23, 2026</p>
+
+  <p>This page explains how to delete data associated with the <strong>Folosy</strong> mobile application for Android (package name <code>com.folosy.app</code>), developed and published by <strong>Folosy</strong>.</p>
+  <p>Folosy is a local-first app: your financial data lives on your own phone and, if you enable backup, in your own Google Drive. We do not operate any server that stores your personal or financial data, so most deletion is directly in your hands and takes effect immediately. Full details are in our <a href="./">privacy policy</a>.</p>
+
+  <h2>1. Delete the data stored on your phone</h2>
+  <p>Your transactions, balance, budgets, categories, settings, and processed bank SMS messages are stored only in the app&rsquo;s private storage on your device. To delete them:</p>
+  <ul>
+    <li><strong>Individual entries:</strong> delete any transaction or category inside the app.</li>
+    <li><strong>Everything at once:</strong> open Android Settings &rarr; Apps &rarr; Folosy &rarr; Storage &rarr; <strong>Clear storage</strong>, or simply uninstall the app.</li>
+  </ul>
+  <p>Either action removes all local data immediately and permanently.</p>
+
+  <h2>2. Delete your Google Drive backups</h2>
+  <p>If you enabled backup, copies of the app&rsquo;s database are stored in a hidden, app-specific folder in <strong>your own</strong> Google Drive. To delete them:</p>
+  <ul>
+    <li>Open <a href="https://drive.google.com">Google Drive</a> &rarr; Settings &rarr; <strong>Manage apps</strong> &rarr; find <strong>Folosy</strong> &rarr; choose <strong>Delete hidden app data</strong> (and/or disconnect the app). Google then deletes the folder and every backup in it.</li>
+    <li>You can also turn off backup inside the app at any time to stop new backups from being created.</li>
+  </ul>
+  <p>Backups also delete themselves automatically: the app keeps at most one backup per day for the last 14 days and removes older files.</p>
+
+  <h2>3. Request deletion of subscription data</h2>
+  <p>If you purchased a premium subscription, our subscription-management provider (RevenueCat) holds a minimal purchase record: the purchase token issued by Google Play, a randomly generated app user identifier (not your name or email), and basic device information. To have this record deleted:</p>
+  <ul>
+    <li>Email <strong>folosy4@gmail.com</strong> with the subject line <strong>&ldquo;Data deletion request&rdquo;</strong>.</li>
+    <li>We will process the deletion and confirm to you by reply within <strong>30 days</strong>.</li>
+  </ul>
+  <p>Google Play keeps its own record of your purchases under Google&rsquo;s policies; you can manage or cancel subscriptions in the <a href="https://play.google.com/store/account/subscriptions">Google Play subscriptions page</a>.</p>
+
+  <h2>What is deleted, and what is kept</h2>
+  <div class="overflow">
+  <table>
+    <tr><th>Data</th><th>Where it lives</th><th>How it is deleted</th><th>Retention if you do nothing</th></tr>
+    <tr><td>Transactions, balance, budgets, categories, settings, processed bank SMS</td><td>Your phone only</td><td>Delete in-app, clear storage, or uninstall &mdash; immediate</td><td>Kept on your device until you delete it</td></tr>
+    <tr><td>Backup files</td><td>Your own Google Drive</td><td>Google Drive &rarr; Manage apps &rarr; delete Folosy&rsquo;s hidden app data &mdash; immediate</td><td>Rolling 14 days; older backups delete automatically</td></tr>
+    <tr><td>Purchase record (purchase token, random app user ID, basic device info)</td><td>RevenueCat</td><td>Email request to folosy4@gmail.com &mdash; within 30 days</td><td>Kept while needed to manage your subscription</td></tr>
+    <tr><td>Google Play billing records</td><td>Google</td><td>Managed by Google under its own policies</td><td>Per Google&rsquo;s policies</td></tr>
+  </table>
+  </div>
+  <p>We hold no other data about you. There is no account to delete because the app has no accounts.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or help with any of the above: <strong>folosy4@gmail.com</strong></p>
+
+  <hr>
+  <p class="meta" style="margin-top:12px">Folosy &middot; Android app &middot; <code>com.folosy.app</code> &middot; <a href="./">Privacy policy</a></p>
+</main>
+</body>
+</html>
